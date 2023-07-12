@@ -1,5 +1,7 @@
 import { ReactNode } from 'react'
 
+import { NavBarr } from '@/components'
+
 import './globals.css'
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
@@ -14,7 +16,8 @@ export const metadata: Metadata = {
 export default function RootLayout ({ children }: { children: ReactNode }) {
   return (
     <html lang='en'>
-      <body className={inter.className}>
+      <body className={`${inter.className} w-full h-screen flex flex-col items-center`}>
+        <NavBarr />
         {children}
       </body>
     </html>
