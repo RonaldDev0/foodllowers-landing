@@ -5,19 +5,15 @@ export type IItem = {
 
 export const items: IItem[] = [
   {
-    href: '/',
+    href: '#inicio',
     label: 'Inicio'
   },
   {
-    href: '/nosotros',
+    href: '#nosotros',
     label: 'Nosotros'
   },
   {
-    href: '/negocios',
-    label: 'Negocios'
-  },
-  {
-    href: '/contacto',
+    href: '#contacto',
     label: 'Contacto'
   }
 ]

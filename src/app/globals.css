@@ -20,8 +20,11 @@
   background-color: #555;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background: #111111;
   color: rgb(250, 250, 250);
-  padding-top: 150px;
 }
