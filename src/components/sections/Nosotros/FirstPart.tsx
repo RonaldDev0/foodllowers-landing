@@ -43,7 +43,7 @@ export function FirstPart () {
   return (
     <div className='[@media(max-width:800px)]:my-5 w-[90vw] text-center flex flex-col justify-center items-center gap-20'>
       <Banner />
-      <h2 className='font-bold text-4xl'>¿Que hacemos?</h2>
+      <h2 className='font-bold text-4xl'>¿Que hacemoss?</h2>
       <Content />
     </div>
   )
