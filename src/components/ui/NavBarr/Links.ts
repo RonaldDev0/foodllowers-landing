@@ -13,7 +13,7 @@ export const items: IItem[] = [
     label: 'Nosotros'
   },
   {
-    href: '#contacto',
+    href: '#contact',
     label: 'Contacto'
   }
 ]
