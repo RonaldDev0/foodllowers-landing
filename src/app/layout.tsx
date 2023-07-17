@@ -4,9 +4,9 @@ import { NavBarr } from '@/components'
 
 import './globals.css'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Quicksand } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const quicksand = Quicksand({ subsets: ['vietnamese'] })
 
 export const metadata: Metadata = {
   title: 'Foodllowers | Landing Page',
@@ -16,7 +16,7 @@ export const metadata: Metadata = {
 export default function RootLayout ({ children }: { children: ReactNode }) {
   return (
     <html lang='en'>
-      <body className={`${inter.className} w-full h-screen flex flex-col items-center`}>
+      <body className={`${quicksand.className} w-full h-screen flex flex-col items-center`}>
         <NavBarr />
         {children}
       </body>
