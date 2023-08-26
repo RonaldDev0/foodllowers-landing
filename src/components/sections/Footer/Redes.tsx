@@ -5,7 +5,7 @@ export function Redes () {
   const links = [
     {
       img: '../../../twitter.svg',
-      path: 'https://www.twitter.com'
+      path: 'https://twitter.com/foodllowers'
     },
     {
       img: '../../../linkedin.svg',

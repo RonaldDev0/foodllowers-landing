@@ -15,7 +15,7 @@ export function Contacto () {
           <textarea name='Message' required className='outline-none bg-[#D9D9D9] p-2 rounded-lg [@media(max-width:800px)]:w-[350px] w-[400px] h-[300px]' />
 
           <div className='flex w-full justify-center items-center'>
-            <button className='bg-red-600 hover:bg-red-400 text-white transition-all p-3 rounded-lg mt-5 w-28'>Enviar</button>
+            <button className='bg-[#FFC60B] hover:bg-[#000000] text-white text-xl font-semibold transition-all p-3 rounded-lg mt-5 w-28'>Enviar</button>
           </div>
           <input type='hidden' name='_next' value='localhost' />
           <input type='hidden' name='_captcha' value='false' />
